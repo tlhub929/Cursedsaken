@@ -1,0 +1,545 @@
+local luraph_capture1 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture2 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture3 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture4 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture5 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture6 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture7 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture8 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture9 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture10 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture11 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture12 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture13 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture14 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture15 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture16 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture17 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture18 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture19 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture20 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture21 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture22 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture23 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture24 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture25 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture26 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture27 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture28 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture29 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture30 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture31 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture32 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture33 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture34 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture35 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture36 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture37 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture38 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture39 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture40 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture41 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture42 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture43 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture44 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture45 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture46 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture47 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture48 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture49 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture50 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture51 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture52 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture53 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture54 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture55 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture56 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture57 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture58 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture59 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture60 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture61 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture62 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture63 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture64 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture65 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture66 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture67 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture68 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture69 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture70 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture71 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture72 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture73 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture74 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture75 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture76 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture77 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture78 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture79 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture80 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture81 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture82 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture83 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture84 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local luraph_capture85 = {} -- captured upvalue array (Luraph runtime contents, not resolved)
+local Workspace
+Workspace = game:GetService("Workspace")
+local Players
+Players = game:GetService("Players")
+local ReplicatedStorage
+ReplicatedStorage = game:GetService("ReplicatedStorage")
+local CoreGui
+CoreGui = game:GetService("CoreGui")
+local RunService
+RunService = game:GetService("RunService")
+local HttpService
+HttpService = game:GetService("HttpService")
+local PathfindingService
+PathfindingService = game:GetService("PathfindingService")
+local VirtualInputManager
+VirtualInputManager = game:GetService("VirtualInputManager")
+local TextChatService
+TextChatService = game:GetService("TextChatService")
+local UserInputService
+UserInputService = game:GetService("UserInputService")
+local Lighting
+Lighting = game:GetService("Lighting")
+local Stats
+Stats = game:GetService("Stats")
+local request_
+local request_2 = request or http_request or http and http.request
+
+if request_2 then
+	request_ = request_2
+else
+	request_ = syn and syn.request
+end
+
+local forsakenFK
+local genv = nil
+
+pcall(function()
+	genv = typeof(getgenv) == "function" and getgenv() or nil
+end)
+
+forsakenFK = genv and genv.ForsakenFK or {}
+
+if genv and not genv.ForsakenFK then
+	genv.ForsakenFK = forsakenFK
+end
+
+if not forsakenFK.__version then
+	forsakenFK.__version = "1.0-slim"
+	local localPlayer = Players.LocalPlayer
+
+	forsakenFK.make = function(arg, arg2, parent)
+		local instance = Instance.new(arg)
+		local children = arg2 and arg2.Children
+
+		if arg2 then
+			for k, v in pairs(arg2) do
+				if k ~= "Children" then
+					pcall(function()
+						instance[k] = v
+					end)
+				end
+			end
+		end
+
+		if children then
+			for _, child in ipairs(children) do
+				child.Parent = instance
+			end
+		end
+
+		if parent then
+			instance.Parent = parent
+		end
+
+		return instance
+	end
+
+	local tbl = { [0] = Enum.Font.Gotham, Enum.Font.GothamMedium, Enum.Font.Code, Enum.Font.RobotoMono }
+	local v = nil
+
+	local function createScreenGui()
+		if v and v.Parent then
+			return v
+		end
+		local hui = nil
+
+		pcall(function()
+			if gethui then
+				hui = gethui()
+			end
+		end)
+
+		local flag = not hui
+
+		if flag then
+			pcall(function()
+				hui = game:GetService("CoreGui")
+			end)
+		end
+
+		if flag then
+			pcall(function()
+				local localPlayer2 = Players.LocalPlayer or localPlayer
+				hui = localPlayer2 and localPlayer2:WaitForChild("PlayerGui", 5) or nil
+			end)
+		end
+
+		if flag then
+			return nil
+		end
+		local screenGui = Instance.new("ScreenGui")
+		screenGui.Name = "FK_TextTags"
+		screenGui.ResetOnSpawn = false
+		screenGui.IgnoreGuiInset = true
+		screenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+		pcall(function()
+			screenGui.DisplayOrder = 100
+		end)
+
+		screenGui.Parent = hui
+		v = screenGui
+		return screenGui
+	end
+
+	forsakenFK.textTag = function()
+		local v2 = createScreenGui()
+		local textLabel = Instance.new("TextLabel")
+		textLabel.BackgroundTransparency = 1
+		textLabel.AutomaticSize = Enum.AutomaticSize.XY
+		textLabel.Size = UDim2.new(0, 0, 0, 0)
+		textLabel.Font = Enum.Font.Code
+		textLabel.TextSize = 14
+		textLabel.TextColor3 = Color3.new(1, 1, 1)
+		textLabel.TextStrokeTransparency = 0
+		textLabel.TextStrokeColor3 = Color3.new(0, 0, 0)
+		textLabel.TextWrapped = false
+		textLabel.Text = ""
+		textLabel.Visible = false
+
+		if v2 then
+			textLabel.Parent = v2
+		end
+
+		local flag = true
+		local vector2 = Vector2.new(0, 0)
+
+		local function fn()
+			textLabel.AnchorPoint = Vector2.new(flag and 0.5 or 0, flag and 0.5 or 0)
+			textLabel.Position = UDim2.new(0, vector2.X, 0, vector2.Y)
+		end
+
+		fn()
+		local v3 = setmetatable
+
+		local tbl2 = {
+			__index = (function(Q) return function(f,f)if f=="Visible"then return Q[1].Visible;elseif f=="Text"then return Q[1].Text;elseif f=="Size"then return Q[1].TextSize;elseif f=="Color"then return Q[1].TextColor3;elseif f=="Position"then return Q[2][6][Q[2][3]];elseif f=="Center"then return Q[3][6][Q[3][3]];elseif f=="Outline"then return Q[4][6][Q[4][3]];elseif f=="Font"then return Q[5].Font;end;return Q[5][f];end end)(luraph_capture27),
+			__newindex = (function(Q) return function(f,f,C)if f=="Visible"then if C and not Q[1].Parent then local m=Q[2][6][Q[2][3]]();if m then Q[1].Parent=m;end;end;Q[1].Visible=C and true or false;elseif f=="Text"then Q[1].Text=C;elseif f=="Size"then Q[1].TextSize=C;elseif f=="Color"then Q[1].TextColor3=C;elseif f=="Position"then Q[3][6][Q[3][3]]=C;Q[1].Position=UDim2.new(0,Q[3][6][Q[3][3]].X,0,Q[3][6][Q[3][3]].Y);elseif f=="Center"then Q[4][6][Q[4][3]]=C and true or false;Q[5].Center=Q[4][6][Q[4][3]];Q[6][6][Q[6][3]]();elseif f=="Outline"then Q[7][6][Q[7][3]]=C and true or false;Q[5].Outline=Q[7][6][Q[7][3]];Q[1].TextStrokeTransparency=Q[7][6][Q[7][3]]and 0 or 1;elseif f=="Font"then Q[5].Font=C;Q[1].Font=Q[8][C]or Enum.Font.Code;else Q[5][f]=C;end;end end)(luraph_capture28),
+		}
+
+		return v3({
+			Remove = function()
+				pcall(function()
+					textLabel:Destroy()
+				end)
+			end,
+			Destroy = function()
+				pcall(function()
+					textLabel:Destroy()
+				end)
+			end,
+		}, tbl2)
+	end
+
+	local tbl2 = {}
+	local tbl3 = {}
+
+	local function fn(arg, arg2, arg3)
+		task.spawn(function()
+			while true do
+				local players = Workspace:FindFirstChild("Players")
+				local v2 = players and players:FindFirstChild(arg)
+
+				if v2 then
+					local function fn2(child)
+						if child:IsA("Model") and not arg3[child] then
+							arg3[child] = true
+							table.insert(arg2, child)
+						end
+					end
+
+					local function fn3(child)
+						arg3[child] = nil
+
+						for i = #arg2, 1, -1 do
+							if arg2[i] == child then
+								table.remove(arg2, i)
+							end
+						end
+					end
+
+					local connection = v2.ChildAdded:Connect(fn2)
+					local connection2 = v2.ChildRemoved:Connect(fn3)
+					local flag = false
+
+					local connection3 = players.ChildRemoved:Connect(function(child)
+						if child == v2 then
+							flag = true
+						end
+					end)
+
+					for _, child in ipairs(v2:GetChildren()) do
+						fn2(child)
+					end
+
+					while v2.Parent and not flag do
+						task.wait(1)
+					end
+
+					connection:Disconnect()
+					connection2:Disconnect()
+					connection3:Disconnect()
+
+					for i = #arg2, 1, -1 do
+						arg3[arg2[i]] = nil
+						table.remove(arg2, i)
+					end
+				end
+
+				task.wait(1)
+			end
+		end)
+	end
+
+	fn("Killers", tbl2, {})
+	fn("Survivors", tbl3, {})
+
+	forsakenFK.Roster = {
+		killers = function()
+			return tbl2
+		end,
+		survivors = function()
+			return tbl3
+		end,
+	}
+
+	local obj = setmetatable({}, { __mode = "k" })
+
+	forsakenFK.rayParams = function(filterDescendantsInstances)
+		local v2 = filterDescendantsInstances and filterDescendantsInstances[1] or Workspace
+		local raycastParams = obj[v2]
+
+		if not raycastParams then
+			raycastParams = RaycastParams.new()
+			raycastParams.FilterType = Enum.RaycastFilterType.Exclude
+			raycastParams.IgnoreWater = true
+			obj[v2] = raycastParams
+		end
+
+		raycastParams.FilterDescendantsInstances = filterDescendantsInstances or {}
+		return raycastParams
+	end
+
+	forsakenFK.sounds = {}
+	local tbl4 = {}
+
+	forsakenFK.sounds.on = function(arg)
+		tbl4[#tbl4 + 1] = arg
+		local n = #tbl4
+
+		return function()
+			tbl4[n] = nil
+		end
+	end
+
+	local function fn2(arg)
+		if not arg:IsA("Sound") or arg:GetAttribute("__FK_SOUND") then
+			return
+		end
+		arg:SetAttribute("__FK_SOUND", true)
+		local v2 = (function(Q) return function()for f=1,#Q[1],1 do local C=Q[1][f];if C then pcall(C,Q[2]);end;end;end end)(luraph_capture29)
+		arg.Played:Connect(v2)
+
+		arg:GetPropertyChangedSignal("IsPlaying"):Connect(function()
+			if arg.IsPlaying then
+				v2()
+			end
+		end)
+
+		if arg.IsPlaying then
+			v2()
+		end
+	end
+
+	task.delay(0.5, function()
+		for _, descendant in ipairs(Workspace:GetDescendants()) do
+			pcall(fn2, descendant)
+		end
+
+		Workspace.DescendantAdded:Connect(function(descendant)
+			task.defer(function()
+				pcall(fn2, descendant)
+			end)
+		end)
+	end)
+
+	forsakenFK.namecall = {}
+	local tbl5 = {}
+	local flag = false
+
+	forsakenFK.namecall.add = function(arg)
+		forsakenFK.namecall.install()
+		tbl5[#tbl5 + 1] = arg
+		local n = #tbl5
+
+		return function()
+			tbl5[n] = nil
+		end
+	end
+
+	forsakenFK.namecall.install = function()
+		if flag then
+			return
+		end
+		flag = true
+		local v2 = (function(Q) return function(f,...)local C=getnamecallmethod and(getnamecallmethod());if C=="FireServer"or C=="InvokeServer"then local m={...};for H=1,#Q[1],1 do local d=Q[1][H];if d then local H,E=pcall(d,f,C,m);if H then if E==false then return;end;m=if type(E)=="table"then E else m;end;end;end;return Q[2][6][Q[2][3]](f,table.unpack(m));end;return Q[2][6][Q[2][3]](f,...);end end)(luraph_capture31)
+		local v3 = newcclosure and newcclosure(v2) or v2
+
+		if hookmetamethod then
+			hookmetamethod(game, "__namecall", v3)
+		else
+			local v4 = getrawmetatable(game)
+			setreadonly(v4, false)
+			v4.__namecall = v3
+			setreadonly(v4, true)
+		end
+	end
+end
+
+local localPlayer
+localPlayer = Players.LocalPlayer
+local playerGui
+playerGui = localPlayer.PlayerGui
+local currentCamera
+currentCamera = Workspace.CurrentCamera
+local assets
+assets = ReplicatedStorage:FindFirstChild("Assets") or ReplicatedStorage:WaitForChild("Assets", 10)
+local modules
+modules = ReplicatedStorage:FindFirstChild("Modules") or ReplicatedStorage:WaitForChild("Modules", 10)
+local v
+
+local function fn()
+	if not modules then
+		return nil
+	end
+	local network = modules:FindFirstChild("Network") or modules:WaitForChild("Network", 10)
+	if not network then
+		local network2 = modules:FindFirstChild("Network", true)
+		return network2 and network2:IsA("ModuleScript") and network2 or nil
+	end
+
+	if network:IsA("ModuleScript") then
+		return network
+	end
+	local network2 = network:FindFirstChild("Network") or network:WaitForChild("Network", 10)
+	if network2 and network2:IsA("ModuleScript") then
+		return network2
+	end
+
+	for _, descendant in ipairs(modules:GetDescendants()) do
+		if descendant.Name == "Network" and descendant:IsA("ModuleScript") then
+			return descendant
+		end
+	end
+
+	return nil
+end
+
+v = fn()
+local remoteEvent
+
+if v then
+	remoteEvent = v:FindFirstChild("RemoteEvent") or modules:FindFirstChild("RemoteEvent", true)
+else
+	remoteEvent = v
+end
+
+local killers, survivors
+local players = Workspace.Players
+killers = players and players.Killers
+survivors = players and players.Survivors
+local ingame
+ingame = Workspace.Map.Ingame
+local tbl
+
+tbl = {
+	StaffState = false,
+	Staff = {},
+	StaffLeave = false,
+	StaffLeaveDelay = 0,
+	Invisibility = false,
+	FlyBind = false,
+	Noclip = false,
+	BaseSpeed = 12,
+	JumpPower = 50,
+	DisableOutline = 0,
+	HFillTransparency = 0.8,
+	KillerEsp = false,
+	PlayersTagsEsp = false,
+	ObjectsTagsEsp = false,
+	SurvivorsEsp = false,
+	EspKillerColor = Color3.fromRGB(255, 0, 0),
+	EspKillerSupportColor = Color3.fromRGB(180, 0, 0),
+	EspSurvivorsColor = Color3.fromRGB(0, 255, 0),
+	GeneratorEsp = false,
+	GeneratorEsp2 = false,
+	GeneratorColor = Color3.fromRGB(255, 255, 0),
+	FakeGeneratorColor = Color3.fromRGB(255, 165, 0),
+	DoneGeneratorColor = Color3.fromRGB(0, 255, 0),
+	ItemEsp2 = false,
+	BloxyColaEsp = false,
+	MedkitEsp = false,
+	BloxyColaColor = Color3.fromRGB(85, 0, 255),
+	MedkitColor = Color3.fromRGB(85, 0, 255),
+	TaphTrapsEsp = false,
+	TaphTrapsEspColor = Color3.fromRGB(255, 165, 0),
+	VeeronicaGraffitiEsp = false,
+	VeeronicaGraffitiEspColor = Color3.fromRGB(255, 192, 203),
+	RespawnLocationEsp = false,
+	RespawnLocationEspColor = Color3.fromRGB(0, 255, 255),
+	BuildermanEsp = false,
+	BuildermanEspColor = Color3.fromRGB(0, 255, 255),
+	AzureEsp = false,
+	AzureEspColor = Color3.fromRGB(128, 0, 128),
+	GetAutoItems = false,
+	AutoGeneratorsTime = 1.05,
+	GeneratorsUI = false,
+	RandomGenTime = false,
+	NormalFaceCheck = false,
+	AimBot = false,
+	AimBotMethod = "Camera Lock",
+	AimBotDistance = 20,
+	AimBotPrediction = 0.1,
+	AimBotSmoothness = 35,
+	AimBotPart = "Head",
+	AimBotPingComp = true,
+	SingleTargetMode = false,
+	CurrentTarget = nil,
+	AimTargetType = "Auto",
+	VisualizeRadius = false,
+	AutoBlocStuds = 5,
+	AutoBlockChance = 100,
+	AutoBlockm1c = false,
+	WallCheck = false,
+	VisWallCheck = false,
+	FacingCheck = false,
+	VisFacing = false,
+	AntiSpin = false,
+	VisAntiSpin = false,
+	SpeedPredict =
